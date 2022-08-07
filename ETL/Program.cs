@@ -4,9 +4,11 @@ using ETL;
 using System.Text.Json;
 using System.Globalization;
 using System.Reflection;
-FileManager fmanager = new();
 
-
-
+AppManager appManager = new AppManager();
+appManager.Start();
+MetaLogWorker mt = new();
+mt.Write();
+//FileManager fmanager = new();
 
 Console.ReadKey();

@@ -19,8 +19,12 @@ namespace ETL
             }
         }
 
-        public async Task<string[]> CSVReadAsync(string path)
+        public async Task<string[]> CsvReadAsync(string path)
         {
+            List<string> lines = new List<string>();
+            string value;
+
+
             var csvConfig = new CsvConfiguration(CultureInfo.CurrentCulture)
             {
                 HasHeaderRecord = false
@@ -29,18 +33,15 @@ namespace ETL
             using var streamReader = new StreamReader(path);
             using var csvReader = new CsvReader(streamReader, csvConfig);
 
-            List<string> lines = new List<string>();
-            string value = "";
-            while (csvReader.Read())
+            while (await csvReader.ReadAsync())
             {
                 for (int i = 0; csvReader.TryGetField(i, out value); i++)
                 {
                     lines.Add(value);
                 }
             }
-            streamReader.Close();
-            csvReader.Dispose();
             streamReader.Dispose();
+            csvReader.Dispose();
 
             return lines.ToArray();
         }
