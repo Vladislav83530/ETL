@@ -10,14 +10,15 @@ namespace ETL
     {
         string path = "";
 
-        public int parsedFiles=0;
-        public int parsedLines=0;
-        public int foundErrors = 0;
-
+        public ulong parsedFiles=0;
+        public ulong parsedLines=0;
+        public ulong foundErrors = 0;
+        //public List<string> invalidFiles = new List<string>();
+        //public string invalFile = "";
         public void Write()
         {   
-            string message = "parsed files: " + parsedFiles + "\n" + "parsed lines: " + parsedLines + "\n" + "foundErrors: " + foundErrors + "\n";
-            using (var sw = new StreamWriter(path))
+            string message = "Parsed Files: " + parsedFiles + "\n" + "Parsed Lines: " + parsedLines + "\n" + "Found Errors: " + foundErrors + "\n";
+            using (var sw = new StreamWriter(path, false))
             {
                 sw.WriteLine(message);
             }

@@ -7,8 +7,7 @@ using System.Reflection;
 
 AppManager appManager = new AppManager();
 appManager.Start();
-MetaLogWorker mt = new();
-mt.Write();
+
 //FileManager fmanager = new();
 
 Console.ReadKey();
