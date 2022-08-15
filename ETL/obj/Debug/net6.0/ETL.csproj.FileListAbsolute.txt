@@ -1,0 +1,17 @@
+D:\GitHub\ETL\ETL\bin\Debug\net6.0\ETL.exe
+D:\GitHub\ETL\ETL\bin\Debug\net6.0\ETL.deps.json
+D:\GitHub\ETL\ETL\bin\Debug\net6.0\ETL.runtimeconfig.json
+D:\GitHub\ETL\ETL\bin\Debug\net6.0\ETL.dll
+D:\GitHub\ETL\ETL\bin\Debug\net6.0\ETL.pdb
+D:\GitHub\ETL\ETL\bin\Debug\net6.0\CsvHelper.dll
+D:\GitHub\ETL\ETL\obj\Debug\net6.0\ETL.csproj.AssemblyReference.cache
+D:\GitHub\ETL\ETL\obj\Debug\net6.0\ETL.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\ETL\ETL\obj\Debug\net6.0\ETL.AssemblyInfoInputs.cache
+D:\GitHub\ETL\ETL\obj\Debug\net6.0\ETL.AssemblyInfo.cs
+D:\GitHub\ETL\ETL\obj\Debug\net6.0\ETL.csproj.CoreCompileInputs.cache
+D:\GitHub\ETL\ETL\obj\Debug\net6.0\ETL.csproj.CopyComplete
+D:\GitHub\ETL\ETL\obj\Debug\net6.0\ETL.dll
+D:\GitHub\ETL\ETL\obj\Debug\net6.0\refint\ETL.dll
+D:\GitHub\ETL\ETL\obj\Debug\net6.0\ETL.pdb
+D:\GitHub\ETL\ETL\obj\Debug\net6.0\ETL.genruntimeconfig.cache
+D:\GitHub\ETL\ETL\obj\Debug\net6.0\ref\ETL.dll

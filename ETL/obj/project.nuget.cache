@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dd0vS7PPHjcGcIasrwuzvxuib9fEvRthtZlZ4nc2YLL2cDjT6BAn1O9Ra7WOdBFna0+B+lprbhBkB7iXgHHDgQ==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\ETL\\ETL\\ETL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vladislav Petrov\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
